@@ -36,14 +36,21 @@
     <plugins>
       <!-- Compiler Plugin -->
       <plugin>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.13.0</version>
+        <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.14.0</version> <!-- Specify the version you want to use -->
+          <configuration>
+            <!-- Set the source and target Java versions -->
+            <source>1.8</source>
+            <target>1.8</target>
+          </configuration>
+        
       </plugin>
 
       <!-- Surefire Plugin for TestNG -->
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
-        <version>3.3.0</version>
+        <version>3.5.2</version>
         <configuration>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
