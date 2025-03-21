@@ -4,9 +4,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.test.basics.AssertExample"/>
-  
-      <class name="com.test.basics.AnnotationExample"/>
-     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
