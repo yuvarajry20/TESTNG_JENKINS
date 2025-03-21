@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="selenium_jenkins.TestNG_jenkins.AppTest"/>
       <class name="com.test.basics.AssertExample"/>
+      <class name="com.test.basics.TutorialsNinja"/>
+      <class name="com.test.basics.Assert"/>
       <class name="com.test.basics.AnnotationExample"/>
       <class name="com.test.basics.Demo1"/>
     </classes>
