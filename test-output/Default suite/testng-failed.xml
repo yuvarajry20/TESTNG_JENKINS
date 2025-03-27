@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.basics.TutorialsNinja">
+      <class name="com.test.PageObjectModelbasics.DataProviderExcel">
         <methods>
-          <include name="beforeTest"/>
-          <include name="verify"/>
-          <include name="afterTest"/>
+          <include name="search" invocation-numbers="1"/>
+          <include name="burnDown"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.test.basics.TutorialsNinja -->
+      </class> <!-- com.test.PageObjectModelbasics.DataProviderExcel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
